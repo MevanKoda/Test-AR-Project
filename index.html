@@ -4,12 +4,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+
     <style>
       body { margin: 0; overflow: hidden; }
     </style>
   </head>
   <body>
+    
     <a-scene
       mindar-image="imageTargetSrc: ./targets.mind"
       vr-mode-ui="enabled: false"
@@ -35,5 +36,7 @@
       </a-entity>
 
     </a-scene>
+
+    <button>Click</button>
   </body>
 </html>
